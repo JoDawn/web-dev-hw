@@ -1,0 +1,8 @@
+# Notes for class
+
+To preview your code in web page view:
+* View> Toggle Command Palette> search: markdown preview: Toggle
+* Or go to: Packages> markdown preview> toggle preview
+
+A short cut for that preview is: ^ (which is shfit + 6) then the up arrow then M
+Haven't been able to successfully execute the shortcut method 
