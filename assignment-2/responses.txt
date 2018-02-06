@@ -20,7 +20,7 @@ person or business. IP and DNS addresses are open to the public, but DNS
 addresses can be hacked, stolen or falsified with an incorrect IP address.
 Both are designed to scale for the usage and future growth of the internet.
 
-A cookie is
+A cookie is 
 
 Basic Parts of a Uniform Resource Locator (aka web address)
 * protocol
