@@ -1,3 +1,5 @@
 # Test readMe file
 
-My [course notes] (./notes.txt) 
+This is a new line.
+
+My [course notes](./notes.txt)
