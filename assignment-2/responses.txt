@@ -2,3 +2,27 @@
 ## Johanna Johnson
 
 Responses
+Data travels on the internet in packets from one computer to another by going
+through servers. Servers communicate with each other and share information
+that is being requested. The servers work with networks that act as data hubs,
+or a kind of junction. I like to think of it like a train station. The data
+are people, the tracks/routes are the internet cables, the servers are smaller
+sub-stations, the packets are trains, and the networks are the hub-stations
+that go in different directions. This may be a bit inaccurate, but it's how
+I visualize how the internet works.
+
+The relationship between Internet Protocol address and the Domain Name System
+is that they are both used for identifying and finding public information.
+An IP address is very unique and specific being assigned with numbers. A DNS
+is the location name made up with letters. You type these DNS addresses into
+your web browser. They are usually a name of some kind, like the name of a
+person or business. IP and DNS addresses are open to the public, but DNS
+addresses can be hacked, stolen or falsified with an incorrect IP address.
+Both are designed to scale for the usage and future growth of the internet.
+
+A cookie is
+
+Basic Parts of a Uniform Resource Locator (aka web address)
+* protocol
+* domain name
+* path
