@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 # Assignment 2
 
 A *Version Control System* is a part of a software configuration management.
