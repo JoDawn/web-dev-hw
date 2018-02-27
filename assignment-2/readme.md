@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 
 # Assignment 2
 
