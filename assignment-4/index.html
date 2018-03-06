@@ -28,31 +28,34 @@
 
     <main>
       <!-- Step 1 -->
-
+      <form action="http://www.example.com/register/php" method="get">
 
       <!-- Part 1: Basic Info -->
       <fieldset>
         <legend>Contact Details</legend>
         <!-- Step 2 (Name) -->
         <p>Name:
-          <input type="text" name="name" id="name-first" />
-          <input type="text" name="name" id="name-middle" />
-          <input type="text" name="name" id="name-last" />
+          <input type="text" name="name" id="name-first" placeholder="First" />
+          <input type="text" name="name" id="name-middle" placeholder="MI" maxlength="3" size="3"/>
+          <input type="text" name="name" id="name-last" placeholder="Last"/>
+
         </p>
         <!-- Step 3 (E-mail) -->
         <p>E-mail:
-
+          <input type="text" name="email" id="email" placeholder="you@email.com" autofocus>
         </p>
 
         <!-- Step 4 (Date) -->
         <p>Date of Birth:
-
+          <input type="date" name="date-of-birth" id="date-of-birth" placeholder="mm/dd/yyy">
         </p>
 
         <!-- Step 5 ("No" Radio) -->
         <p>Have you taken a web design course before?</p>
             <input id="yes" type="radio" name="prev-course" value="y">
               <label for="yes">Yes</label>
+            <input id="no" type="radio" name="prev-course" value="n">
+              <label for="no">No</label>
 
       </fieldset>
 
@@ -60,7 +63,7 @@
       <br />
 
 
-      <!-- Part : Previous Experience -->
+      <!-- Part 2: Previous Experience -->
       <fieldset>
         <legend>Previous Experience</legend>
         <!-- BROWSERS --><div id="browsers">
@@ -70,39 +73,82 @@
           </figure>
           <p>What is your preferred browser?</p>
           <p><i>Choose one:</i></p>
+          <input type="radio" name="preferred-browser" value="Firefox">
+            <label for="Firefox">Firefox</label><br/>
+          <input type="radio" name="preferred-browser" value="Chrome" checked="Chrome">
+            <label for="Chrome">Chrome</label><br/>
+          <input type="radio" name="preferred-browser" value="Internet-Explorer">
+            <label for="Internet-Explorer">Internet Expolorer</label><br/>
+          <input type="radio" name="preferred-browser" value="Safari">
+            <label for="Safari">Safari</label><br/>
+          <input type="radio" name="preferred-browser" value="Opera">
+            <label for="Opera">Opera</label><br/>
+          <input type="radio" name="preferred-browser" value="Microsoft-Edge">
+            <label for="Microsoft-Edge">Microsoft Edge</label><br/>
+          <input type="radio" name="preferred-browser" value="Other">
+            <label for="Other">Other</label>
           <!-- Step 6 -->
 
         </div>
 
         <!-- LANGUAGES --><div id="languages">
           <!-- Step 7 -->
-
+          <figure>
+            <img src="./images/languages.png" alt="Image of Languages Icon" title="Language Icon" width="100" height="100">
+            <figcaption>Chatting in Code</figcaption>
+          </figure>
           <p>What languages are you familiar with?</p>
           <p><i>Choose one or more:</i></p>
             <!-- Step 8 -->
+            <input type="checkbox" name="checkbox" value="HTML">
+              <label for="HTML">HTML</label><br/>
+            <input type="checkbox" name="checkbox" value="CSS">
+              <label for="CSS">CSS</label><br/>
+            <input type="checkbox" name="checkbox" value="JavaScript">
+              <label for="JavaScript">JavaScript</label><br/>
+            <input type="checkbox" name="checkbox" value="PHP">
+              <label for="PHP">PHP</label><br/>
+            <input type="checkbox" name="checkbox" value="Ruby">
+              <label for="Ruby">Ruby</label><br/>
+            <input type="checkbox" name="checkbox" value="Python">
+              <label for="Python">Python</label><br/>
+            <input type="checkbox" name="checkbox" value="Other">
+              <label for="Other">Other</label><br/>
 
         </div>
 
         <!-- SHORT-ANSWER--><div id="short-answer">
           <!-- Step 9 -->
-
+          <figure>
+            <img src="./images/experience.png" alt="Image of Experiences Icon" title="Experience Icon" width="100" height="100">
+            <figcaption>In the Know?</figcaption>
+          </figure>
           <p>Introduce yourself!</p>
 
           <p>“Hi! I'm a
             <select name="experience-level">
             <!-- Step 10 -->
-
+              <option value="guppy">guppy</option>
+              <option value="beginner">beginner</option>
+              <option value="novice" selected>novice</option>
+              <option value="journeyman">journeyman</option>
+              <option value="expert">expert</option>
+              <option value="wizard">wizard</option>
             </select>
             web designer or developer.”</p>
 
           <p>“Last year, I spent
             <!-- Step 11 -->
-            <input type="text" name="experince-time"
+            <input type="numbers" name="experince-time"
             id="experince-time" placeholder="##" min="0" max="12" size="2"/>
             months studying or working in this field.”</p>
 
           <!-- Step 12 (textarea) -->
-          “I think my most difficult task will be...
+        <p>
+          <input type="text">
+          <text-area name="Answer" id="Answer" col="30" rows="2">I think my most difficult task will be...
+        </text-area>
+      </p>
         </div>
       </fieldset>
 
@@ -122,7 +168,7 @@
 
         </p>
 
-
+</form>
     </main>
     <!-- Step 20 -->
 

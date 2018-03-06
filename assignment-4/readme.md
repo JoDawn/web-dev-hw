@@ -4,7 +4,7 @@
   <meta name="Report: Assignment 4" content="Head Elements in HTML">
   <meta name="author" content="Johanna Johnson">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <title>Repo Assignment 4</title>
 </head>
 
 <body>
