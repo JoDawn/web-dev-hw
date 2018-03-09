@@ -8,12 +8,8 @@
       legend {font-size:20px}
       img, figure, figcaption, table {text-align:center;font-style:italic;margin:auto}
       div {width:32%;display:inline-block;vertical-align:text-top;}
-      table, td, th {
+      table, td, th { border: 2px solid gray; padding: 5px; border-collapse: }
       /* -- Step 16 -- */
-
-
-
-      }
     </style>
   </head>
 
@@ -145,32 +141,69 @@
 
           <!-- Step 12 (textarea) -->
         <p>
+          I think my most difficult task will be...
           <input type="text">
-          <text-area name="Answer" id="Answer" col="30" rows="2">I think my most difficult task will be...
+          <text-area name="comments" col="30" rows="2">
         </text-area>
       </p>
         </div>
       </fieldset>
 
-
       <br />
-
 
       <!-- Part 3: Course Offerings -->
       <!-- Steps 13-18 -->
-
-
+      <fieldset>
+        <legend>Offerings and Availability</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th scope="col">Times (pm)</th>
+              <th scope="col">Seats Available</th>
+            </tr>
+            <tr>
+              <th scope="row">Spring Semester</th>
+              <td>M,W @ 12:00-2:00</td>
+              <td>12/60</td>
+            </tr>
+            <tr>
+              <th scope="row">Summer Session</th>
+              <td>F @ 5:30-9:30</td>
+              <td>FULL</td>
+            </tr>
+            <tr>
+              <th scope="row">Autumn Semester</th>
+              <td>M,W @ 12:00-2:00</td>
+              <td>FULL</td>
+            </tr>
+            <tr>
+              <th scope="row">Winter Session</th>
+              <td>F @ 12:00-4:00</td>
+              <td>2/60</td>
+            </tr>
+            <tr>
+              <th scope="row">Special Session</th>
+              <td>TBA</td>
+              <td>0/60</td>
+            </tr>
+          </table>
+      </fieldset>
         <!-- Step 19 -->
         <table>
-
+          To complete the registration:<br/>
+          <label for="username">Username:</label>
+          <input type="text" name="username" required="required"><br/>
+          <label for="password">Password:</label>
+          <input type="text" name="password" required="required"><br/>
         </table>
         <p>Yes! Sign me up for weekly e-mail alerts.
-
+          <input type="checkbox" name="weekly alerts" value="yes" checked="checked">
+          <input type="submit" name="subscribe" value="Submit"/>
         </p>
 
 </form>
     </main>
     <!-- Step 20 -->
-
+    <img src="./images/registration-station.jpg" alt="computer on a desk-like surface in tones of white, grey and black " title="Register Today!" width="500" height="333">
   </body>
 </html>
