@@ -7,7 +7,7 @@
   <meta name="author" content="Johanna Johnson">
   <meta name="robots" content="no snippet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Assignment 5 Repo</title>
+
 </head>
 
 <body>
@@ -15,7 +15,7 @@
   <h3>Johanna Johnson</h3>
   <h2>Assignment 5</h2>
 
-  <div id="answers">
+  <div>
     <p>The differences:<br/>
       <ul>
       <strong>div=dividers</strong><br/>
@@ -38,11 +38,11 @@
     <p>One may consider third-party over self-hosted media because the format of the media can be read by more browsers. Certain browsers can understand or are able to read specific types of files. If you self-host you have to convert and provide code for the different browsers visitors may be using to your website. It makes the process of including media much easier if you use third-party hosted media. Another reason could be the avoidance of not giving proper credit or sources in dealing with artist usage and sharing allowances. Meaning, you could unintentionally be sharing priviledged or licensed media that is not supposed to be accessible without paying for it.
     </p>
 
-    <p>My work cycle for this assignment was not smooth or pleasing. There was a ton of definitions and longer sequences to learn how to piece together properly. It only got harder trying to figure out how to put the information into practice with the assignment. I'm also now afraid I am going to be fined or charged with pirateing music/vido/cover art and plagarism. I was happy when I finally got my source codes to actually work on safari, firefox and google chrome. It was an uncomfortable learning curve and I'm not happy with how basic and ugly everything still looks. 
+    <p>My work cycle for this assignment was not smooth or pleasing. There was a ton of definitions and longer sequences to learn how to piece together properly. It only got harder trying to figure out how to put the information into practice with the assignment. I'm also now afraid I am going to be fined or charged with pirateing music/vido/cover art and plagarism. I was happy when I finally got my source codes to actually work on safari, firefox and google chrome. It was an uncomfortable learning curve and I'm not happy with how basic and ugly everything still looks.
     </p>
 
     <p>Screenshot of my workspace during my development cyle.<br/>
-      <img src="./images/screenshot-a5.png" width="700px" />
+      <img src="./images/screenshot-a5.png">
     </p>
   </div>
 
