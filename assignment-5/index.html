@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description" content="head elements in html">
   <meta name="author" content="Johanna Johnson">
-<!---Insert Keywords meta data--->
+  <meta name="keywords" content="web development and design, assignment 5, shakira, gypsy, audio, video, lyrics, University of Montana">
   <meta name="viewport" content="width=device-width; intiial scale=1.0">
   <title>Assignemt 5</title>
   <style>
@@ -28,31 +28,107 @@
 </head>
 
 <body>
+  <!---About Area--->
 <div id="art" class="container">
-  <h1>Gypsy</h1>
-  <h2>Shakira</h2>
+  <h1>Shakira</h1>
+  <h2>She Wolf</h2>
+  <h3>Gyspy</h3>
   <p>
-    <image src=".images/cover-art-gypsy-shakira.jpg" alt="Shakira Album Cover Art" title="Shakira Album Cover Art" width="1000px" height="900px" />
+    <image src="./images/cover-art-gypsy-shakira.jpg" alt="Shakira Album Cover Art" title="Shakira Album Cover Art" width="500px" />
   </p>
 </div>
 
 <div id="audio" class="container">
   <p>
-    <audio src=".media/gypsy.m4a" type="mp4" controls preload="auto"></audio>
-    <iframe src="https://itunes.apple.com/us/album/gypsy/340234380?i=340234702" type="mp4" controls preload="auto"></iframe>
+    <audio controls preload src="./media/gypsy.mp3" type="mp3">
+    <source src="./media/gypsy.ogg" type="ogg" />
+    </audio>
   </p>
 </div>
 
 <div id="video" class="container">
   <p>
-    <video src=".media/gypsy-live.m4v" poster="" controls preload="auto"></video>
+    <video src="./media/gypsy-live.m4v" poster="./images/gypsy-shakira-poster.jpg" controls preload="auto" width="400px" height="320px"></video>
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/v7yReSexwuo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </p>
 </div>
 
-<div id="lyrics" class="container"></div>
+<div id="lyrics" class="container">
+  <h1>Lyrics</h1>
+  <p class="gypsy-lyrics-shakira">
+    <p>Broke my heart<br/>
+      On the road<br/>
+      Spent the weekend<br/>
+      Sewing the pieces back on<br/>
+      Friends and thoughts pass me by<br/>
+      Walking gets too boring<br/>
+      When you learn how to fly<br/>
+      Not the homecoming kind<br/>
+      Take the top off<br/>
+      And who knows what you might find<br/>
+      Won't confess all my sins<br/>
+      You can bet I'll try it<br/>
+      But you can't always win<br/>
+      <em>'Cause I'm a gypsy<br/>
+      Are you coming with me?<br/>
+      I might steal your clothes<br/>
+      And wear them if they fit me<br/>
+      I never made agreements<br/>
+      Just like a gypsy<br/>
+      And I won't back down<br/>
+      'Cause life's already bit me<br/>
+      And I won't cry<br/>
+      I'm too young to die<br/>
+      If you're gonna quit me<br/>
+      'Cause I'm a gypsy<br/>
+      'Cause I'm a gypsy<br/>
+      </em>
+      I can't hide<br/>
+      What I've done<br/>
+      Scars remind me<br/>
+      Of just how far that I've come<br/>
+      To whom it may concern<br/>
+      Only run with scissors<br/>
+      When you want to get hurt<br/>
+      <em>'Cause I'm a gypsy<br/>
+      Are you coming with me?<br/>
+      I might steal your clothes<br/>
+      And wear them if they fit me<br/>
+      I don't make agreements<br/>
+      Just like a gypsy<br/>
+      And I won't back down<br/>
+      'Cause life's already bit me<br/>
+      And I won't cry<br/>
+      I'm too young to die<br/>
+      If you're gonna quit me<br/>
+      'Cause I'm a gypsy<br/>
+      </em>
+      I said hey you<br/>
+      You're no fool<br/>
+      If you say "no"<br/>
+      Ain't it just the way life goes?<br/>
+      People fear what they don't know<br/>
+      Come along for the ride oh yeah<br/>
+      Come along for the ride ooh<br/>
+      <em>'Cause I'm a gypsy<br/>
+      Are you coming with me?<br/>
+      I might steal your clothes<br/>
+      And wear them if they fit me<br/>
+      I never made agreements<br/>
+      Just like a gypsy<br/>
+      I won't back down<br/>
+      'Cause life's already bit me<br/>
+      And I won't cry<br/>
+      I'm too young to die<br/>
+      If you're gonna quit me<br/>
+      'Cause I'm a gypsy<br/>
+      </em>
+      </p>
+    <p>Songwriters: Shakira Isabel Mebarak Ripoll / Carl Sturken / Amanda Ghost / Evan Rogers / Ian Dench <br/>
+      Gypsy lyrics &copy; Kobalt Music Publishing Ltd., Sony/ATV Music Publishing LLC, Universal Music Publishing Group</p>
+  </p>
 
-<!---About Area--->
+</div>
 
 <div id="copyright" class="container">
 <!---Copyright--->
@@ -60,10 +136,10 @@
 <!---Animated Logo--->
 <p>
   <video src="./media/mart-logo-animated.mp4" poster="./images/mart-logo-poster.jpg" width="100px" height="75px" preload="none" autoplay>
-  <source src="./media/mart-logo-animated.webm" type=".webm">
+  <source src="./media/mart-logo-animated.webm" type=".webm" autoplay />
   </video>
 </p>
-<p>
+<p class="contact">
     <address>
       University of Montana<br/>
       School of Media Arts, McGill Hall Rm 224<br/>
