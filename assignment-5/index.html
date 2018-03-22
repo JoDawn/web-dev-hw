@@ -28,20 +28,41 @@
 </head>
 
 <body>
-<h1>Gypsy</h1>
-<h2>by Shakira</h2>
+<div id="art" class="container">
+  <h1>Gypsy</h1>
+  <h2>Shakira</h2>
+  <p>
+    <image src=".images/cover-art-gypsy-shakira.jpg" alt="Shakira Album Cover Art" title="Shakira Album Cover Art" width="1000px" height="900px" />
+  </p>
+</div>
+
+<div id="audio" class="container">
+  <p>
+    <audio src=".media/gypsy.m4a" type="mp4" controls preload="auto"></audio>
+    <iframe src="https://itunes.apple.com/us/album/gypsy/340234380?i=340234702" type="mp4" controls preload="auto"></iframe>
+  </p>
+</div>
+
+<div id="video" class="container">
+  <p>
+    <video src=".media/gypsy-live.m4v" poster="" controls preload="auto"></video>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/v7yReSexwuo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </p>
+</div>
+
+<div id="lyrics" class="container"></div>
 
 <!---About Area--->
 
-  <div>
+<div id="copyright" class="container">
 <!---Copyright--->
   <p>&copy; This webpage was produced for the class Introduction to Web Design & Development with the University of Montana, School of Media Arts.</p>
 <!---Animated Logo--->
 <p>
-  <video src="./media/mart-logo-animated.mp4" poster="./images/mart-logo-poster.jpg" width="" height="" preload="none" loop autoplay>
+  <video src="./media/mart-logo-animated.mp4" poster="./images/mart-logo-poster.jpg" width="100px" height="75px" preload="none" autoplay>
   <source src="./media/mart-logo-animated.webm" type=".webm">
   </video>
-
+</p>
 <p>
     <address>
       University of Montana<br/>
@@ -52,7 +73,8 @@
 <!---Google Map--->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.0484933831553!2d-113.98580903421308!3d46.8624180791423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc33c3d4cbd5%3A0xd77cd4f46bdf5b89!2sMcGill+Hall%2C+32+Campus+Dr%2C+Missoula%2C+MT+59812!5e0!3m2!1sen!2sus!4v1521686771608" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
   </p>
-  </div>
+</div><!--end of copyright-->
+
 </body>
 
 </html>
