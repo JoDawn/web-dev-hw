@@ -11,22 +11,20 @@
 
 <style>
   body {
-    background-image: url("images/white-brick-background.jpg");
+    background-image: url("../images/white-brick-background.jpg");
     background-repeat: repeat;
     background-attachment: scroll;
     font-family: Arial, Helvetica, sans-serif;
     }
     h1 {
     color: firebrick;
-    text-align: left;
+    text-align: center;
     }
-  table {
+  img {
     background-color: snow;
     padding: 3px;
     }
-  img {
-    float: right;
-    }
+
 </style>
 </head>
 
@@ -37,7 +35,28 @@
     <a href="./pages/about.html">About</a> &nbsp;
     <a href="./pages/contact.html">Contact</a> &nbsp;
   </nav>
-  <br/>
+  <hr/>
+
+<form action="https://www.example.com/question.php">
+  <p> Was this instructable helpful?<br/>
+    <input type="checkbox" name="helpful" value="yes" />yes or no<input type="checkbox" name="helpful" value="no" /><br/>
+  </p>
+</form>
+
+<img src="../images/snap-screenprint.jpg" alt="screen print of snapping turtle head with mouth open" title="screen print" width="300px">
+
+  <p>Email me <a href="mailto: johanna.johnson@umontana.edu" target="_blank">here</a> for further inquiries.
+  </p>
+
+  <p>You can also visit my artist website <a href="https://illustr8johanna.com" target="_self">www.illustr8johanna.com</a> to see more of my work.<br/>
+
+    <form action="https://www.example.com/subscribe.php">
+      Or subscribe to my email list:
+      <input type="text" name="email" />
+      <input type="submit" name="subscribe" value="subscribe" />
+    </form>
+    
+  </p>
 
 </body>
 

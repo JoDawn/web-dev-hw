@@ -20,16 +20,42 @@
       color: firebrick;
       text-align: center;
       }
-    table {
-      background-color: snow;
-      padding: 3px;
+      h2 {
+        color: darkgreen;
+        text-align: left;
+      }
+      table.GeneratedTable {
+        width: 50%;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-color: #ffcc00;
+        border-style: solid;
+        color: #000000;
+      }
+
+      table.GeneratedTable td, table.GeneratedTable th {
+        border-width: 2px;
+        border-color: #ffcc00;
+        border-style: solid;
+        padding: 3px;
+      }
+
+      table.GeneratedTable thead {
+        background-color: #ffcc00;
+      }
+
+      blockquote {
+        color: white;
+        text-align: center;
+        background-color: grey;
       }
 
   </style>
 </head>
 
   <body>
-      <h1>At Home DIY Abstract Art</h1>
+      <h1>At Home <abbr title="Do It Yourself">DIY</abbr> Abstract Art</h1>
       <nav>
         <a href="./index.html">Home</a> &nbsp;
         <a href="./pages/about.html">About</a> &nbsp;
@@ -44,25 +70,86 @@
 
     <div id="supplies">
       <p>Here is a list of things you will need to create your abstract art piece.
-      </p>
-      <table>
+        <ul>
+          <li>canvas</li>
+          <li>2-3 brushes (see below for options)</li>
+          <li>paint (see below for options)</li>
+          <li>painter's tape</li>
+          <li>large paper plates (1 for each paint color)</li>
+          <li>floor/surface covering (i.e. plastic or drop cloth)</li>
+          <li>large jar or small bucket of warm water</li>
+          <li>paper towels</li>
+        </ul>
+      </p>Here are some options that are easy to find and generally inexpensive.<br/>
+      You may even find these around your home from other projects = free!
+      <table class="GeneratedTable">
+        <thead>
+          <tr>
+            <th>Brushes</th>
+            <th>Paint</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>small roller</td>
+            <td>acrylic</td>
+          </tr>
+          <tr>
+            <td>2" flat</td>
+            <td>spray</td>
+          </tr>
+          <tr>
+            <td>reg round</td>
+            <td>house/wall</td>
+          </tr>
+        </tbody>
       </table>
+      <!-- Codes by Quackit.com -->
     </div>
 
     <div id="instructions">
-      <p>First, you will need to purchase a blank <b>primed</b> canvas. <br/>
-        These are easy to find at any art or craft supply store like <a href="https://michaels.com" target="_blank">Michaels</a>, <a href="https://joann.com" target="_blank">JoAnn Fabrics</a>,
-        <a href="https://dickblick.com" target="_blank">Blick Art Materials</a>, or <a href="https://hobbylobby.com" target="_blank">Hobby Lobby</a>. Depending on the size you need, these can cost anywhere from
-        $10 to $40. <br/>
-        Also, make sure that you like the depth of the canvas and is easy to hang with nails or push-pins.
-      </p>
+      <h2>Step 1</h2>
+        <p>First, you will need to <b>purchase a blank primed canvas</b>. <br/>
+          These are easy to find at any art or craft supply store like <a href="https://michaels.com" target="_blank">Michaels</a>, <a href="https://joann.com" target="_blank">JoAnn Fabrics</a>,
+          <a href="https://dickblick.com" target="_blank">Blick Art Materials</a>, or <a href="https://hobbylobby.com" target="_blank">Hobby Lobby</a>. Depending on the size you need, these can cost anywhere from
+          $10 to $40. <br/>
+          Also, make sure that you like the depth of the canvas and is easy to hang with nails or push-pins.
+        </p>
+      <h2>Step 2</h2>
+        <p>Next you can decide if you want to have <b>two or three colors</b>. You will want to choose colors that match a piece of furniture, fabric or maybe a rug in your home that you love!<br/>
+           <b>Lay down your plastic or drop cloth</b> to protect your work area and home.
+        </p>
+      <h2>Step 3</h2>
+        <p>Choose which brush you want to use and have a <b>brush for each color</b> of paint.<br/>
+          <b>Pour each color of paint onto a paper plate</b>. This is where you will either dip or roll your brush into.
+        </p>
+      <h2>Step 4</h2>
+        <p><b>Lay down your canvas</b> or prop it up against a wall. Decide if you want to work in a horizontal, vertical or X pattern.
+        </p>
+      <h2>Step 5</h2>
+        <p>Load up your brush with one color and <b>start applying the paint</b>. Remember to NOT mix your paint colors. This may require waiting between layers or colors to dry before moving on to the next.
+        </p>
+
     </div>
 
     <div id="examples">
+        <p>Here are some examples of simple do it yourself abstract art
+        </p>
       <figure>
-        <img src="./images/example-a.jpg" alt="yellow and pink rough painting on hotizontal rectangle canvas" title="yeloow and pink" width="500px">
-        <figcaption>Image sourced from <i>A Beautiful Mess</i> blog </figcaption>
+        <img src="./images/example-a.jpg" alt="yellow and pink rough painting on hotizontal rectangle canvas" title="yelow and pink" width="300px">
+        <figcaption>Image sourced from <cite>A Beautiful Mess</cite> blog </figcaption>
       </figure>
+      <figure>
+        <img src="./images/example-b.jpg" alt="cork dots streaked" title="blue dots" width="300px">
+        <figcaption>Image sourced from <cite>Remodelaholic</cite> blog</figcaption>
+      </figure>
+    </div>
+
+    <div id="blockquote">
+      <blockquote>"We don't make mistakes,<br/>
+        just happy little accidents."<br/>
+        - Bob Ross
+      </blockquote>
     </div>
 
   </body>
