@@ -1,0 +1,33 @@
+
+*{
+  text-align: center;
+  color: #191970;
+  }
+
+@fontface {
+  font-family: 'CormorantUnicase-Bold';
+  src:url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+}
+
+header, footer {
+  font-family: 'CormorantUnicase-Bold', serif;
+  src: url('.fonts/CormorantUnicase-Bold');
+  font-variant: small-caps;
+  font-size: '75%';
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'JimNightshade-Regular';
+  src:url('https://fonts.googleapis.com/css?family=Jim+Nightshade' format)'embedded-opentype');
+}
+
+main {
+  font-family: 'JimNightshade', cursive;
+  src: url('.fonts/JimNightshade-Regular');
+  font-size: '50%';
+}
+
+link:hover{
+  color: #0000ff;
+}

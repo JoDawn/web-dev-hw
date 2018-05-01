@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'CormorantUnicase', serif;
+  src: url('../fonts/CormorantUnicase-Regular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JimNightshade', cursive;
+  src: url('../fonts/JimNightshade-Regular');
+  font-weight: normal;
+  font-style: normal;
+}
